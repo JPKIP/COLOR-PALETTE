@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserInputComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  draw(topLeft, bottomRight){
+    console.log(topLeft + bottomRight);
   }
 
 }

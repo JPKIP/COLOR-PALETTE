@@ -1,1 +1,7 @@
-<p>user-input works!</p>
+<p></p>
+
+<div class="form-color">
+    <input type="text" id="topLeftColor" #topLeftColor class="form-control" placeholder="top left color" required autofocus>
+    <input type="text" id="bottomRightColor"  #bottomRightColor class="form-control" placeholder="Bottom right color" required>
+    <button class="btn btn-lg btn-primary btn-block"  (click)="draw(topLeftColor.value, bottomRightColor.value)">Draw !</button>
+</div>
